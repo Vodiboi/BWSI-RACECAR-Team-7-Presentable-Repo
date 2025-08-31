@@ -7,7 +7,7 @@ File Name: lab_2a.py
 
 Title: BYOA (Build Your Own AHRS)
 
-Author: [PLACEHOLDER] << [Write your name or team name here]
+Author: Team 7
 
 Purpose: The goal of this lab is to build and deploy a ROS node that can ingest
 IMU data and return accurate attitude estimates (roll, pitch, yaw) that can then
