@@ -1,7 +1,6 @@
 """
 MIT BWSI Autonomous RACECAR
 MIT License
-racecar-neo-outreach-labs
 
 File Name: japanese_line_follower
 
