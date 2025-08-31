@@ -1,3 +1,19 @@
+"""
+MIT BWSI Autonomous RACECAR
+MIT License
+
+File Name: cone_slalom.py
+
+Title: Cone Slalom Code
+
+Author: Team 7
+
+Purpose: Code for avoiding cones when doing cone slalom.
+
+Expected Outcome: Drives slowly and avoids cones. 
+
+This is probably the most reliable code in the entire repo. 
+"""
 ########################################################################################
 # Imports
 ########################################################################################
