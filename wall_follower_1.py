@@ -1,13 +1,12 @@
 """
 MIT BWSI Autonomous RACECAR
 MIT License
-racecar-neo-outreach-labs
 
-File Name: wf2.py
+File Name: wall_follower_1.py
 
-Title: Wall Follower 2
+Title: Wall Follower 1
 
-Author: RACECAR Team 7
+Author: Team 7
 
 Purpose: Wall Following on the 30 meter long course
 
