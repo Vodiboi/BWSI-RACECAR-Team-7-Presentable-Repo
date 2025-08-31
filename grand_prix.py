@@ -1,15 +1,14 @@
 """
 MIT BWSI Autonomous RACECAR
 MIT License
-racecar-neo-outreach-labs
 
 File Name: grand_prix.py
 
-Title: Wall Follower 2
+Title: Grand Prix Code
 
-Author: RACECAR Team 7
+Author: Team 7
 
-Purpose: Grand Prix
+Purpose: Code for racing in the Grand Prix
 
 Expected Outcome: Does not DNF!
 """
