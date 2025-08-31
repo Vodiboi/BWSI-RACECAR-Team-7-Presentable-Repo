@@ -1,3 +1,19 @@
+"""
+MIT BWSI Autonomous RACECAR
+MIT License
+
+File Name: pablos_wall_follower.py
+
+Title: Pablo's Wall Follower
+
+Author: Pablo Corruvabias De La Torre
+
+Purpose: Wall Following on the 30 meter long course
+
+Expected Outcome: Successfully navigates the track!
+
+Given by Pablo to Team 7 in exchange for 2 CC coins. 
+"""
 import sys
 import math 
 sys.path.insert(1, '../../library')
