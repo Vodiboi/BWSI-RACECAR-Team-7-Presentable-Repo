@@ -14,7 +14,7 @@ Expected Outcome: Successfully navigates the track!
 """
 
 ########################################################################################
-# Importstfvtfvvfvtfv
+# Imports
 ########################################################################################
 
 import sys
@@ -175,17 +175,6 @@ class WallFollower():
 
     def update(self):
         scan = np.array(self.rc.lidar.get_samples())    # 720 samples @0.5° each
-        # print(rc_utils.get_lidar_average_distance(scan, 0, 50))
-        # print(scan[0:20])
-        # scan[scan==0] = 500
-        # print(len(scan))
-        # print(scan[-180])#scan[180], scan[270*2])
-        # if len(scan) == 0:
-        #     return 0.5, 0
-        # scan[scan > 300] = 0
-        # poses = scan==0
-        # scan = fill_missing_lidar_circular(scan, np.linspace(-np.pi, np.pi, scan.size, endpoint=False))
-        # scan[poses] += 50
         N    = len(scan)                                 # =720
         v    = self.amt_consider
         h_v  = v // 2
@@ -235,11 +224,6 @@ class WallFollower():
                 angle_deg -= len(scan)/2
 
             # normalize ±45° → ±1
-            # if 2*angle_deg / self.window_srch > 1:
-            #     speed = 0.5 * self.cruise_speed
-            # else:
-            #     speed    = self.cruise_speed
-            # speed    = self.cruise_speed
             angle = cap(angle_deg / (self.window_srch))
             # angle = cap(4*angle_deg / (self.window_srch))
             if angle < -0.4:
