@@ -1,4 +1,17 @@
-# this code does manual drive and click right trigger to take photos
+"""
+MIT BWSI Autonomous RACECAR
+MIT License
+
+File Name: drive_and_foto.py
+
+Title: Photography Code
+
+Author: Team 7
+
+Purpose: Code for taking photos for training object detection models. 
+
+Expected Outcome: When right trigger is pressed, photo is taken (refresh rate of 2 Hz). Use joysticks to drive the car manually.
+"""
 ########################################################################################
 # Imports
 ########################################################################################
@@ -41,6 +54,7 @@ def start():
 
     # This tells the car to begin at a standstill
     rc.drive.stop()
+    
 diff = 0
 def update():
     global speed
@@ -48,10 +62,6 @@ def update():
     global speed_offset
     global angle_offset
     global diff
-
-    # speed = rc.controller.get_trigger(rc.controller.Trigger.RIGHT) - rc.controller.get_trigger(rc.controller.Trigger.LEFT)
-    # if abs(speed) < 0.1:
-    #     speed = 0
     
     (x, y) = rc.controller.get_joystick(rc.controller.Joystick.LEFT)
     (x2, y2) = rc.controller.get_joystick(rc.controller.Joystick.RIGHT)
