@@ -2,21 +2,15 @@
 MIT BWSI Autonomous RACECAR
 MIT License
 
-File Name: lab_f.py
+File Name: line_follower.py
 
-Title: Lab F - Line Follower
+Title: Line Follower
 
-Author: RACECAR Team 7
+Author: Team 7
 
-Purpose: Write a script to enable fully autonomous behavior from the RACECAR. The
-RACECAR should automatically identify the color of a line it sees, then drive on the
-center of the line throughout the obstacle course. The RACECAR should also identify
-color changes, following colors with higher priority than others. Complete the lines 
-of code under the #TODO indicators to complete the lab.
-
-Expected Outcome: When the user runs the script, they are able to control the RACECAR
-using the following keys:
-- The RACECAR sees the color ORANGE as the highest priority, then GREEN
+Purpose: The RACECAR should automatically identify the color of a line it sees, 
+then drive on the center of the line throughout the obstacle course. The RACECAR 
+should also identify color changes, following colors with higher priority than others. 
 """
 # things to fix
 ########################################################################################
