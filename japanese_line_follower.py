@@ -1,3 +1,21 @@
+"""
+MIT BWSI Autonomous RACECAR
+MIT License
+racecar-neo-outreach-labs
+
+File Name: japanese_line_follower
+
+Title: Line Follower
+
+Author: Team Japan
+
+Purpose: Write a script to enable fully autonomous behavior from the RACECAR. The
+RACECAR should automatically identify the color of a line it sees, then drive on the
+center of the line throughout the obstacle course. The RACECAR should also identify
+color changes, following colors with higher priority than others.
+
+Written by Team Japan, given to Team 7 to modify and use for the grand prix.
+"""
 import sys
 import time
 import math
