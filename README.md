@@ -1,7 +1,6 @@
 # BWSI-RACECAR-Team-7-Presentable-Repo
 The repository for the organized code of RACECAR Team 7. At BWSI RACECAR, teams compete in the Quest Log, getting their cars to perform certain tasks such as Cone Slalom, Line Following, Car Following (Conga Line), Sign Detection, and Wall Following, in order to purchase upgrades to their cars. This culminates in a Time Trial around the grand prix circuit, and a 14 car race on it.   
 This repository contains most of our code for the Quest Log, Time Trials, and Grand Prix.  
-Ultimately, we came 7th in the time trials, and our car's battery died 5 minutes before the start of the grand prix.  
 
 ## Main Features:
 
